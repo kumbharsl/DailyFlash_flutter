@@ -39,7 +39,7 @@ class _TappedState extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tapped Contaienr"),
+        title: const Text("Tapped Container"),
         backgroundColor: Colors.blue,
       ),
       body: Center(
