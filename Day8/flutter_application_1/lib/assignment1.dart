@@ -23,13 +23,13 @@ class MainApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: 200,
+                  width: 150,
                   color: Colors.red,
                 ),
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: 200,
+                  width: 150,
                   color: Colors.pink,
                 ),
               ],
@@ -38,13 +38,23 @@ class MainApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: 150,
+                  width: 340,
+                  color: Colors.amber,
+                )
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Container(
+                  height: 200,
+                  width: 150,
                   color: Colors.amber,
                 ),
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: 200,
+                  width: 150,
                   color: Colors.green,
                 ),
               ],
