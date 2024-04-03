@@ -31,7 +31,7 @@ class _DatePickerdemoState extends State {
               hintText: "Pickup Date",
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.all(
-                  Radius.circular(15),
+                  Radius.circular(16),
                 ),
                 borderSide: BorderSide(
                   color: Color.fromARGB(255, 48, 3, 137),
@@ -41,7 +41,7 @@ class _DatePickerdemoState extends State {
                 borderRadius: BorderRadius.all(
                   Radius.circular(15),
                 ),
-                borderSide: BorderSide(color: Colors.red),
+                borderSide: BorderSide(color: Colors.blue),
               ),
             ),
             onTap: () async {
