@@ -15,7 +15,7 @@ class _DatePickerdemoState extends State {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Date Picker demo"),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.red,
       ),
       body: Padding(
         padding: const EdgeInsets.all(15),
